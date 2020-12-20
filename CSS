@@ -1,0 +1,141 @@
+#id-body {
+    position: relative;
+    text-align: center;
+    width: 1000px;
+    height: 1000px;
+    background-color: lightskyblue;
+    border: black solid 1px;
+}
+#id-inform-input {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 200px;
+}
+#id-inform-boom {
+    position: absolute;
+    top: 10px;
+    left: 260px;
+    width: 200px;
+}
+.text-n {
+    position: absolute;
+    top: 10px;
+    width: 100px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 25px;
+    background-color: #bbf8af;
+}
+.text-boom {
+    position: absolute;
+    top: 10px;
+    width: 100px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 25px;
+    background-color: lightcoral;
+}
+.input {
+    top: 10px;
+    position: absolute;
+    height: 56px;
+    width: 90px;
+    text-align: center;
+    font-size: 25px;
+    background-color: ivory;
+}
+.regame {
+    border-radius: 15px;
+    top: 20px;
+    position: absolute;
+    right: 20px;
+    height: 70px;
+    width: 150px;
+    font-size: 25px;
+    background-color: gold;
+    border: black solid 1px;
+}
+#id-div-mime {
+    display: inline-block;
+    position: relative;
+    top: 120px;
+
+}
+.clearfix {
+    clear: both;
+}
+.cell {
+    border-radius: 6px;
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-color: #bbf8af;
+    margin: 2px;
+    border: black solid 1px;
+    text-align: center;
+    font-size: 0;
+    transition: background-color 0.1s;
+}
+.mouseover {
+    background-color: lightcyan;
+    transition: background-color 0.1s;
+}
+.opened {
+    font-size: 28px;
+    background-color: #effcfc;
+    border: lightskyblue solid 1px;
+}
+.opened-0 {
+    background-color: #effcfc;
+    border: lightskyblue solid 1px;
+}
+.opened-boom {
+    background-color: #effcfc;
+    border: lightskyblue solid 1px;
+}
+.body-alert {
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    top: 200px;
+    left: 340px;
+    background-color: lavender;
+    border: black solid 2px;
+}
+.title-alert {
+    position: relative;
+    left: 20px;
+    top: 20px;
+    width: 320px;
+    height: 100px;
+    text-align: center;
+    font-size: 35px;
+}
+.button-alert {
+    transition: all 0.5s;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top: 150px;
+    left: 120px;
+    font-size: 20px;
+    background-color: floralwhite;
+}
+.hide {
+    opacity: 0.4;
+    background-color: black;
+    transition: opacity 0.3s;
+}
+#id-boom-image {
+    position: relative;
+    top: 3px;
+    width: 35px;
+    height: 35px;
+}
+.tag-image {
+    position: relative;
+    top: 2px;
+    width: 35px;
+    height: 35px;
+}
